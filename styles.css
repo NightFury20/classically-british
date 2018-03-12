@@ -1,3 +1,31 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
     font-family: 'Lobster', cursive;
+}
+
+/* header */
+
+.header__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #333366;
+    color: white;
+}
+
+.header__hero {
+    padding-top: 100px;
+    
+}
+
+.header__hero-footer {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/* body */
+.card {
+    border: none;
 }
