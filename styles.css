@@ -6,12 +6,34 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+.btn-outline-primary {
+    border-color: #012169;
+    color: #012169;
+}
+
+.btn-outline-primary:hover {
+    background-color: #012169;
+    border-color: #012169;
+}
+
+.btn-outline-primary > i {
+    margin-left: 5px;
+}
+
+.img-link:hover {
+    opacity: 0.5;
+}
+
+.hr-half {
+    width: 50%;
+}
+
 /* header */
 
 .header__title {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #333366;
+    background-color: #012169;
     color: white;
 }
 
