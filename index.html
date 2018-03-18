@@ -68,11 +68,11 @@
                             <div class='card-body'>
                                 <h5 class='card-title'>Classic MG</h5>
                                 <p>
-                                    <a href='#' target='blank'>
+                                    <a href='#' data-toggle="modal" data-target="#MGClassicModal">
                                         <img src='./assets/classic-mg-logo.jpg' alt='Classic MG' class="img-link">
                                     </a>
                                 </p>
-                                <a href='#' target='blank' class='btn btn-outline-primary'>View Catalogue <i class='fa fa-lg fa-angle-right'></i></a>
+                                <button class='btn btn-outline-primary' data-toggle="modal" data-target="#MGClassicModal">View Catalogue <i class='fa fa-lg fa-angle-right'></i></button>
                             </div>
                         </div>
 
@@ -138,6 +138,69 @@
                     </div>
 
                     <hr class="hr-half" />
+
+                    <!-- Modals -->
+                    <!-- MGClassicModal -->
+                    <div class="modal fade" id="MGClassicModal" tabindex="-1" role="dialog" aria-labelledby="MGClassicModal" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Classic MG</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <nav>
+                                        <div class="nav nav-tabs" id="mg-classic-nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-mg-mgb-tab" data-toggle="tab" href="#nav-mg-mgb" role="tab" aria-controls="nav-mg-mgb" aria-selected="true">MGB</a>
+                                            <a class="nav-item nav-link" id="nav-mg-mga-tab" data-toggle="tab" href="#nav-mg-mga" role="tab" aria-controls="nav-mg-mga" aria-selected="true">MGA</a>
+                                            <a class="nav-item nav-link" id="nav-mg-mg-t-tab" data-toggle="tab" href="#nav-mg-mg-t" role="tab" aria-controls="nav-mg-mg-t" aria-selected="true">MG T</a>
+                                            <a class="nav-item nav-link" id="nav-mg-sprite-early-tab" data-toggle="tab" href="#nav-mg-sprite-early" role="tab" aria-controls="nav-mg-sprite-early" aria-selected="true">Sprite / Midget (Early)</a>
+                                            <a class="nav-item nav-link" id="nav-mg-sprite-late-tab" data-toggle="tab" href="#nav-mg-sprite-late" role="tab" aria-controls="nav-mg-sprite-late" aria-selected="false">Sprite / Midget (Late)</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-mg-mgb" role="tabpanel" aria-labelledby="nav-mg-mgb-tab">MGB</div>
+
+                                        <div class="tab-pane fade" id="nav-mg-mga" role="tabpanel" aria-labelledby="nav-mg-mga-tab">MGA</div>
+
+                                        <div class="tab-pane fade" id="nav-mg-mg-t" role="tabpanel" aria-labelledby="nav-mg-mg-t-tab">MG T</div>
+
+                                        <div class="tab-pane fade" id="nav-mg-sprite-early" role="tabpanel" aria-labelledby="nav-mg-sprite-early-tab">Sprite / Midget (Early)</div>
+
+                                        <div class="tab-pane fade" id="nav-mg-sprite-late" role="tabpanel" aria-labelledby="nav-mg-sprite-late-tab">
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=54">Tools &amp; Equipment</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=2">Body</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=4">Brakes</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=58">Car Care, Books, Tools &amp; Workshop</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=6">Clutch, Gearbox &amp; Drive Train</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=59">Cooling System</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=9">Electrical</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=8">Engine</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=10">Exhaust</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=11">Exterior</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=57">Fuel System, Induction &amp; Controls</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=56">Heating &amp; Ventilation</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=14">Interior</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=55">Performance &amp; Tuning</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=53">Road Wheels, Tyres &amp; Road Side Equipment</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=52">Steering &amp; Suspension</a><br/>
+                                            <a href="http://www.moss-europe.co.uk/Browse/SubcomponentMenuProducts.aspx?WebCatalogID=39&amp;PlateTypeID=1&amp;ComponentID=51">Weather    Equipment</a>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /Modals --> 
                 </div>
             </div>
         </div>

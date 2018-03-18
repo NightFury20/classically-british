@@ -6,6 +6,15 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+h3 {
+    color: red;
+}
+
+a:hover {
+    text-decoration-color: red;
+    color: red;
+}
+
 .btn-outline-primary {
     border-color: #012169;
     color: #012169;
