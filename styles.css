@@ -6,13 +6,9 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
-h3 {
-    color: red;
-}
-
 a:hover {
-    text-decoration-color: red;
-    color: red;
+    text-decoration-color: #C8102E;
+    color: #C8102E;
 }
 
 .btn-outline-primary {
@@ -35,6 +31,19 @@ a:hover {
 
 .hr-half {
     width: 50%;
+}
+
+.modal-header {
+    background-color: #012169;
+    color: white;
+}
+
+.modal-header .close {
+    color: white;
+}
+
+.modal-body {
+    padding: 0;
 }
 
 /* header */
