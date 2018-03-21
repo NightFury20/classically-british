@@ -1,9 +1,13 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
+}
+
+p {
+    font-size: 20px;
 }
 
 a:hover {
@@ -23,6 +27,21 @@ a:hover {
 
 .btn-outline-primary > i {
     margin-left: 5px;
+}
+
+.navbar {
+    margin-top: 5px;
+    background-color: #C8102E !important;
+    color: white;
+}
+
+.navbar-toggler {
+    color: white !important;    
+}
+
+.nav-link {
+    color: white !important;
+    text-align: center;
 }
 
 .img-link:hover {
