@@ -33,15 +33,21 @@ a:hover {
     margin-top: 5px;
     background-color: #C8102E !important;
     color: white;
+    padding: 0;
 }
 
 .navbar-toggler {
-    color: white !important;    
+    color: white !important;
+    margin: 8px;
 }
 
 .nav-link {
     color: white !important;
     text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #880b1f;
 }
 
 .img-link:hover {
