@@ -10,7 +10,7 @@ import {
 
 const FullRedButton = styled(Button)`
   width: 100%;
-  background-color: #dc3545;
+  background-color: #C8102E;
   color: white;
   margin: 0;
   border: none;
@@ -18,10 +18,15 @@ const FullRedButton = styled(Button)`
   margin-bottom: 3px;
   height: 64;
   padding: 20px 15px 20px 15px;
-  font-size: 1rem;
-  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  font-family: "PT Serif", serif !important;
   font-weight: 400;
   text-align: left;
+`;
+
+const CustomCardBody = styled(CardBody) `
+  margin: 0;
+  padding: 0;
 `;
 
 class CollapseMenu extends Component {
@@ -43,7 +48,7 @@ class CollapseMenu extends Component {
         </FullRedButton>
         <Collapse isOpen={this.state.collapse}>
           <Card>
-            <CardBody>{children}</CardBody>
+            <CustomCardBody>{children}</CustomCardBody>
           </Card>
         </Collapse>
       </div>;
