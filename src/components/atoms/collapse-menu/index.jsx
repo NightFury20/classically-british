@@ -10,7 +10,7 @@ import {
 
 const FullRedButton = styled(Button)`
   width: 100%;
-  background-color: red;
+  background-color: #dc3545;
   color: white;
   margin: 0;
   border: none;
@@ -19,7 +19,7 @@ const FullRedButton = styled(Button)`
   height: 64;
   padding: 20px 15px 20px 15px;
   font-size: 1rem;
-  font-family: inherit;
+  font-family: "PT Serif", serif;
   font-weight: 400;
   text-align: left;
 `;
