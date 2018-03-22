@@ -31,7 +31,7 @@ a:hover {
 
 .navbar {
     margin-top: 5px;
-    background-color: #C8102E !important;
+    background-color: #012169 !important;
     color: white;
     padding: 0;
 }
@@ -47,7 +47,11 @@ a:hover {
 }
 
 .nav-link:hover {
-    background-color: #880b1f;
+    background-color: #011646;
+}
+
+.img-link {
+    max-width: 150px;
 }
 
 .img-link:hover {
@@ -73,6 +77,10 @@ a:hover {
 
 /* header */
 
+.header__hero {
+    padding-top: 75px;
+}
+
 .header__title {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -80,17 +88,25 @@ a:hover {
     color: white;
 }
 
-.header__hero {
-    padding-top: 100px;
-
-}
-
-.header__hero-footer {
-    padding-top: 30px;
-    padding-bottom: 70px;
-}
-
 /* body */
 .card {
     border: none;
+}
+
+.accordion-header-btn {
+    color: white;
+    text-align: left;
+    background-color: #C8102E;
+    border-top-color: white;
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accordion-header-btn:hover {
+    background-color: #880b1f;
+}
+
+.accordion-header-btn > h5 {
+    margin-bottom: 0;
 }
