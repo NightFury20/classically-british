@@ -30,6 +30,7 @@ a:hover {
 }
 
 .navbar {
+    margin-top: 5px;
     background-color: #012169 !important;
     color: white;
     padding: 0;
@@ -46,7 +47,7 @@ a:hover {
 }
 
 .nav-link:hover {
-    background-color: #880b1f;
+    background-color: #011646;
 }
 
 .img-link:hover {
