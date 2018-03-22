@@ -94,3 +94,21 @@ a:hover {
 .card {
     border: none;
 }
+
+.accordion-header-btn {
+    color: white;
+    text-align: left;
+    background-color: #C8102E;
+    border-top-color: white;
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accordion-header-btn:hover {
+    background-color: #880b1f;
+}
+
+.accordion-header-btn > h5 {
+    margin-bottom: 0;
+}
