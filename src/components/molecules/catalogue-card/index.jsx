@@ -7,12 +7,13 @@ const CatalogueCard = ({ title, link, imageUrl, ...rest }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p>
-          <a href="#">
             <img src={imageUrl} alt={title} className="img-link" />
-          </a>
         </p>
-        <button className="btn btn-outline-primary">
-          View Catalogue <i className="fa fa-lg fa-angle-right" />
+        <button
+          className="btn btn-outline-primary"
+          data-toggle="modal"
+          data-target="#MGClassicModal">
+          Open <i className="fa fa-lg fa-angle-right" />
         </button>
       </div>
     </div>

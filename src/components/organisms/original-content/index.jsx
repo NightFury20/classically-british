@@ -1,17 +1,24 @@
 import React from 'react';
 
-import { HeaderJumbotron, WriteupSection } from '~/components/molecules';
-import { CataloguesSection } from '~/components/organisms';
+import {
+  HeaderSection,
+  WriteupSection,
+} from '~/components/molecules';
+
+import {
+  CataloguesSection,
+} from '~/components/organisms';
 
 const OriginalContent = () => (
-  <div data-spy="scroll" data-target="#navbar-example2" data-offset={0}>
-    <HeaderJumbotron />
+  <div>
+    <HeaderSection />
     <div className="container-fluid">
-      <div className="main container">
-        <WriteupSection />
-        <CataloguesSection />
-      </div>
+      <WriteupSection />
+      <CataloguesSection />
     </div>
+    {/* Optional JavaScript */}
+    {/* jQuery first, then Popper.js, then Bootstrap JS */}
+    {/* Font Awesome icons */}
   </div>
 );
 
