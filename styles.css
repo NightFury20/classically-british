@@ -50,6 +50,10 @@ a:hover {
     background-color: #011646;
 }
 
+.img-link {
+    max-width: 150px;
+}
+
 .img-link:hover {
     opacity: 0.5;
 }
