@@ -80,14 +80,8 @@ a:hover {
     color: white;
 }
 
-.header__hero {
-    padding-top: 100px;
-    
-}
-
-.header__hero-footer {
-    padding-top: 30px;
-    padding-bottom: 70px;
+.header__hero-footer > h5 {
+    margin-bottom: 0;
 }
 
 /* body */
