@@ -1,0 +1,96 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration-color: #C8102E;
+    color: #C8102E;
+}
+
+.btn-outline-primary {
+    border-color: #012169;
+    color: #012169;
+}
+
+.btn-outline-primary:hover {
+    background-color: #012169;
+    border-color: #012169;
+}
+
+.btn-outline-primary > i {
+    margin-left: 5px;
+}
+
+.navbar {
+    margin-top: 5px;
+    background-color: #C8102E !important;
+    color: white;
+    padding: 0;
+}
+
+.navbar-toggler {
+    color: white !important;
+    margin: 8px;
+}
+
+.nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #880b1f;
+}
+
+.img-link:hover {
+    opacity: 0.5;
+}
+
+.hr-half {
+    width: 50%;
+}
+
+.modal-header {
+    background-color: #012169;
+    color: white;
+}
+
+.modal-header .close {
+    color: white;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+/* header */
+
+.header__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #012169;
+    color: white;
+}
+
+.header__hero {
+    padding-top: 100px;
+
+}
+
+.header__hero-footer {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/* body */
+.card {
+    border: none;
+}
